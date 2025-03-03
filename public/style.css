@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    background-attachment: fixed; /*MAGIC PARALLAX*/
+}
+
+section img{
+    border: 2px solid rgb(82, 7, 7);
+    margin-top: 5%;
+}
+
+section p{
+    font-size: 15pt;
+}
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+section:nth-of-type(1){
+    background-image: url(src/imagens/patrick-schopflin-N_NFolZUgZY-unsplash.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.titulo h1, .titulo h2, .titulo h3 {
+    font-size: 2rem;
+}
+
+section:nth-of-type(3){
+    background-image: url(src/imagens/ela/she1.png);
+    height: 600px;
+}
+section:nth-of-type(5){
+    background-image: url(src/imagens/ela/she3.png);
+    height: 600px;
+}
+section:nth-of-type(7){
+    background-image: url(src/imagens/ela/shemp4.gif);
+    height: 600px;
+}
+section:nth-of-type(9){
+    background-image: url(src/imagens/ela/she4.jpeg);
+    height: 1200px;
+}
+
+.mtext{
+    background: rgb(58, 58, 58);
+    padding: 2px;
+}
+.mtext1{
+    background: rgb(9, 36, 124);
+    padding: 2px;
+}
+.mtext2{
+    background: rgb(255, 255, 255);
+    color: #790404;
+    padding: 2px;
+}
+.mtext3{
+    background: #4b0606;
+    padding: 2px;
+}
